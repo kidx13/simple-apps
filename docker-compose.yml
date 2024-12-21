@@ -10,6 +10,6 @@ services:
     volumes:
       - app-data:/app/public/images
 
-  volumes:
-    app-data:
+volumes:
+  app-data:
   
