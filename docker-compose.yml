@@ -1,7 +1,7 @@
 services:
 
 simple-apps:
-  build: .
+  build: ./app
   image: kidx13/simple-apps
   container_name: ct-apps
   restart: always
