@@ -2,7 +2,7 @@ services:
 
 simple-apps:
   build: .
-  image: kidk/simple-apps
+  image: kidx13/simple-apps
   container_name: ct-apps
   restart: always
   ports:
