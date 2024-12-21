@@ -6,8 +6,8 @@ simple-apps:
   container_name: ct-apps
   restart: always
   ports:
-    - 80:3000
-    volumes:
+      - 80:3000
+  volumes:
       - app-data:/app/public/images
 
 volumes:
