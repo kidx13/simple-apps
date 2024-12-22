@@ -25,7 +25,8 @@ sonar-scanner   -Dsonar.projectKey=simple-apps   -Dsonar.sources=.   -Dsonar.hos
 
         stage('Build Image') {
             steps {
-                echo 'Build Image'
+                 sh '''cd app
+               docker compose build'''
             }
         }
 
