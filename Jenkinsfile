@@ -39,7 +39,8 @@ sonar-scanner   -Dsonar.projectKey=simple-apps   -Dsonar.sources=.   -Dsonar.hos
 
         stage('Deploy Apps') {
             steps {
-                echo 'Deploy Apps'
+                     sh '''cd app
+               docker compose up -d'''
             }
         }
     }
